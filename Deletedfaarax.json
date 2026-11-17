@@ -1,0 +1,18 @@
+[{
+  "_id": {
+    "$oid": "6afc4181ecf7be460f11e7db"
+  },
+  "name": "abdinasir",
+  "id": 144,
+  "email": "abdinasir@email.com"
+},
+{
+  "_id": {
+    "$oid": "6afc4181ecf7be460f11e7dc"
+  },
+  "name": "nimco",
+  "Location": "jigjiga",
+  "proffision": "nurse",
+  "Hight": 1.72,
+  "location": "qardho"
+}]
