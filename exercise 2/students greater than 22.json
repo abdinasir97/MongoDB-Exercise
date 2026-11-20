@@ -1,0 +1,47 @@
+[{
+  "_id": {
+    "$oid": "6affc0ec25e6384e91d6706b"
+  },
+  "name": "abdinasir",
+  "email": "abdinasir@email.com",
+  "courses": [
+    "react",
+    "tailwind"
+  ],
+  "age": 31
+},
+{
+  "_id": {
+    "$oid": "6affc0ec25e6384e91d6706c"
+  },
+  "name": "hamuuda",
+  "email": "hamuuda@email.com",
+  "courses": [
+    "nextjs",
+    "tailwind"
+  ],
+  "age": 29
+},
+{
+  "_id": {
+    "$oid": "6affc0ec25e6384e91d6706d"
+  },
+  "name": "yasin",
+  "email": "yasin@email.com",
+  "courses": [
+    "react",
+    "javascript"
+  ],
+  "age": 26
+},
+{
+  "_id": {
+    "$oid": "6affc16625e6384e91d67075"
+  },
+  "name": "ayaan",
+  "courses": [
+    "ai engneer",
+    "html,nodejs"
+  ],
+  "age": 23
+}]

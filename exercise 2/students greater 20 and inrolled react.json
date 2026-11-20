@@ -1,0 +1,24 @@
+[{
+  "_id": {
+    "$oid": "6affc0ec25e6384e91d6706b"
+  },
+  "name": "abdinasir",
+  "email": "abdinasir@email.com",
+  "courses": [
+    "react",
+    "tailwind"
+  ],
+  "age": 31
+},
+{
+  "_id": {
+    "$oid": "6affc0ec25e6384e91d6706d"
+  },
+  "name": "yasin",
+  "email": "yasin@email.com",
+  "courses": [
+    "react",
+    "javascript"
+  ],
+  "age": 26
+}]
