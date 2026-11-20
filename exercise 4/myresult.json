@@ -1,0 +1,28 @@
+db.students.aggregate(
+  {$unwind:'$courses'},
+  {$group: {_id:"$courses",total:{$sum:1}}},
+  {$project:{course:"$_id",total:1,_id:0}},
+  {$sort:{score:-1}}
+)
+[
+  { total: 1, course: { title: 'MongoDB', score: 100 } },
+  { total: 1, course: { title: 'TypeScript', score: 99 } },
+  { total: 1, course: { title: 'Node.js', score: 100 } },
+  { total: 1, course: { title: 'TypeScript', score: 64 } },
+  { total: 2, course: { title: 'MongoDB', score: 86 } },
+  { total: 1, course: { title: 'MongoDB', score: 70 } },
+  { total: 1, course: { title: 'TypeScript', score: 90 } },
+  { total: 1, course: { title: 'TypeScript', score: 100 } },
+  { total: 1, course: { title: 'TypeScript', score: 89 } },
+  { total: 1, course: { title: 'React', score: 97 } },
+  { total: 1, course: { title: 'Node.js', score: 88 } },
+  { total: 1, course: { title: 'Express', score: 74 } },
+  { total: 1, course: { title: 'Express', score: 90 } },
+  { total: 1, course: { title: 'TypeScript', score: 61 } },
+  { total: 1, course: { title: 'MongoDB', score: 94 } },
+  { total: 1, course: { title: 'Node.js', score: 80 } },
+  { total: 1, course: { title: 'Express', score: 76 } },
+  { total: 1, course: { title: 'MongoDB', score: 91 } },
+  { total: 1, course: { title: 'MongoDB', score: 66 } },
+  { total: 1, course: { title: 'React', score: 65 } }
+]
